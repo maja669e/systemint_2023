@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mandatory2-part2"
+version = "0.1.0"
+description = ""
+authors = ["maja669e <maja669e@stud.kea.dk>"]
+readme = "README.md"
+packages = [{include = "mandatory2_part2"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.30.0"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
